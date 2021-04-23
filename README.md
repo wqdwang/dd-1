@@ -150,5 +150,5 @@ docker exec -it jd bash jup
 docker exec -it jd bash
 ```
 ```
-wget -q https://raw.githubusercontent.com/afwfv/dd/main/v4mb.sh  -O v4mb.sh && chmod +x v4mb.sh && ./v4mb.sh
+wget -q https://raw.githubusercontent.com/afwfv/dd/main/v4mb.sh -O v4mb.sh && chmod +x v4mb.sh && ./v4mb.sh
 ```
