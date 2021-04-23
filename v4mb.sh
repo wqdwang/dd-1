@@ -2,7 +2,9 @@ wget https://ghproxy.com/https://raw.githubusercontent.com/afwfv/dd/main/v4mb.ta
 tar -zxvf v4mb.tar.gz
 rm -f v4mb.tar.gz
 mv v4mb/panel panel
-mv v4mb/config config
+mv v4mb/diy.sh config/diy.sh
+mv v4mb/config/auth.json config/auth.json
+cp config/1/auth.json config/auth.json
 rm -rf v4mb
 cd panel
 npm i
