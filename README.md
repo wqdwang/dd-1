@@ -144,7 +144,7 @@ docker exec -it qinglong bash git_pull
 docker exec -it jd bash jup
 ```
 ##安装v4面板
-
+#开启DIY每次重启会重启面板
 #先进入容器
 ```
 docker exec -it jd bash
