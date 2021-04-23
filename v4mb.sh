@@ -6,7 +6,7 @@ mv v4mb/config/panel/* config/panel
 mv v4mb/config/diy.sh config/diy.sh
 mv v4mb/config/auth.json config/auth.json
 rm -rf v4mb
-cd panel
+cd config/panel
 npm i
 pm2 start server.js
 echo -e "端口5678，默认用户名admin，密码adminadmin"
